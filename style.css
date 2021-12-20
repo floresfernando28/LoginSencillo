@@ -1,0 +1,249 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/mar.jpg);
+    text-align: center;
+    position: relative;
+    font-family:'Acme';
+    background-size: cover;
+
+
+}
+
+.formulario{
+  width: 340px;
+  height: 430px;
+   background: rgba(0,0,0,0.6);
+   color: #fff;
+   left: 50%;
+   top: 220%;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   box-sizing: border-box;
+
+}
+.container{
+    text-align: center;
+    font-family: 'Acme';
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 90px;
+}
+.container{
+  padding: 50px;
+}
+
+.correo{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+
+}
+
+
+input{
+    height: 30px;
+    width: 300px;
+    background-color: whrite;
+    border-color: rgb(225, 225, 241);
+    border-color: white;
+    padding: 1px;
+
+}
+
+.password{
+    font-family:'Acme';
+    font-size: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+ 
+
+
+}
+
+
+p{
+  color: cornsilk;
+  padding: 1px;
+
+}
+
+.formulario button[type="submit"]{
+    margin: 20px auto;
+    padding: 8px 115px;
+    color: white;
+    background-color:blue;
+    font-size: 15px;
+    font-family: 'Acme';
+    border-color: white;
+
+
+}
+
+
+
+
+
+
+/*
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: url(fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+   
+  }
+  
+  .logo{
+    width: 120px;
+    height: 25px;  
+  }
+ 
+
+  nav{
+      display: flex;
+      align-items:center;
+      justify-content: space-around;
+      min-height:8vh;
+      background-color: #294674;
+  }
+
+  .ham{
+    display:none;
+    background-color:transparent;
+    cursor: pointer;
+    border:none;
+    margin:0;
+    padding:0;
+    }
+    
+    .ham span{
+        background-color: #f3f3f3;
+        display:block;
+        height:3px;
+        width: 28px;
+        margin:10px auto;
+        border-radius:2px;    
+    }
+  .enlaces-menu{
+      display:flex;
+      padding:0;
+  }
+  .enlaces-menu li{
+      padding: 0 40px;
+      list-style-type: none;
+      transition: 0.3s;
+  }
+
+  .enlaces-menu li a{
+      text-decoration:none;
+      font-size: 1.8rem;
+      color:#f3f3f3;
+      font-weight:600;
+  }
+  .enlaces-menu li:hover{
+      background-color:rgb(62, 130, 197);
+  }
+
+
+
+
+@media (max-width:768px) {
+    body{
+      overflow:hidden;
+    }
+      .ham{
+          display:block;
+          cursor:pointer;
+          position: absolute; 
+          top:15px;
+          right:25px;
+          transition: 0.2s  0.1s; 
+  
+      }
+   
+      
+      nav{
+          flex-direction:column;
+          align-items: flex-start;
+          padding-top: 25px;
+          padding-bottom: 25px;
+      }
+
+      .logo{
+        padding-left:25px;
+        
+      }
+
+      .enlaces-menu{
+        
+          flex-direction:column;
+          justify-content: space-around;
+          align-items:center;
+          height: 92vh;         
+          margin:0;
+          padding:0; 
+          display:none;
+          opacity:0;
+          transition: opacity 5s ease-out;
+          width:100%;
+      
+         
+      }
+      .enlaces-menu li{
+        text-align:center;
+        width:100%;
+        padding:20px;    
+    }
+  
+}
+
+
+  
+@keyframes muestraMenu {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .enlaces-menu.activado{
+      display:flex; 
+      animation: muestraMenu 350ms ease-in-out both;
+  }
+
+  .br-1.animado{
+    transform: rotate(-45deg) translate(-10px, 8px);
+  }
+  
+  .br-2.animado{
+    opacity: 0;
+  }
+  .br-3.animado{
+    transform: rotate(45deg) translate(-10px, -8px);
+  }
+
+ .ham.girar:hover{
+     transform:rotate(360deg);
+ }
+
+
+
+
+
+
+*/
